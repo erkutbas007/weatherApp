@@ -10,6 +10,11 @@ import UIKit
 
 class QueriedCityTableViewCell: UITableViewCell {
 
+    @IBOutlet var cityName: UILabel!
+    var city = City()
+    var referanceView = QueriedCityViewController()
+    var ref = TimeBasedViewController()
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -21,4 +26,18 @@ class QueriedCityTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
 
+    @IBAction func refreshPreviousCityData(_ sender: Any) {
+        
+        referanceView.performSegue(withIdentifier: Constants.Segue.gotoRefresh, sender: nil)
+        
+    }
+    
+    @IBAction func gotoTimeFilter(_ sender: Any) {
+        
+        if let destinationViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "TimeBasedViewController") as? TimeBasedViewController {
+            
+            destinationViewController.present(destinationViewController, animated: true, completion: nil)
+            
+        }
+    }
 }

@@ -13,6 +13,23 @@
 		A7369B3E20CB1862001692F4 /* WeatherAppChallange.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A7369B3C20CB1862001692F4 /* WeatherAppChallange.xcdatamodeld */; };
 		A7369B4020CB1863001692F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7369B3F20CB1863001692F4 /* Assets.xcassets */; };
 		A7369B4320CB1863001692F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7369B4120CB1863001692F4 /* LaunchScreen.storyboard */; };
+		A7369B4B20CB187B001692F4 /* city.list.json in Resources */ = {isa = PBXBuildFile; fileRef = A7369B4A20CB187B001692F4 /* city.list.json */; };
+		A7369B5420CB1911001692F4 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7369B5320CB1911001692F4 /* City.swift */; };
+		A7369B5620CB310D001692F4 /* daniel-olah-417244-unsplash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A7369B5520CB310D001692F4 /* daniel-olah-417244-unsplash.jpg */; };
+		A7369B5A20CB362C001692F4 /* ExtensionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7369B5920CB362C001692F4 /* ExtensionViewController.swift */; };
+		A7369B5C20CB36FA001692F4 /* WeatherSearchByCity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7369B5B20CB36FA001692F4 /* WeatherSearchByCity.swift */; };
+		A7369B6220CB3CC6001692F4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7369B6120CB3CC6001692F4 /* Constants.swift */; };
+		A7369B6520CB41BC001692F4 /* AlertViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7369B6420CB41BC001692F4 /* AlertViewManager.swift */; };
+		A7369B6720CB57AD001692F4 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7369B6620CB57AD001692F4 /* Weather.swift */; };
+		A7369B6920CB683A001692F4 /* QueriedCityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7369B6820CB683A001692F4 /* QueriedCityViewController.swift */; };
+		A7369B6B20CB6887001692F4 /* ExtensionQueriedCityController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7369B6A20CB6887001692F4 /* ExtensionQueriedCityController.swift */; };
+		A7369B6D20CB6B01001692F4 /* QueriedCityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7369B6C20CB6B01001692F4 /* QueriedCityTableViewCell.swift */; };
+		A7369B7220CB897C001692F4 /* RefreshedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7369B7120CB897C001692F4 /* RefreshedViewController.swift */; };
+		A7369B7420CBA0F9001692F4 /* ExtensionRefreshController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7369B7320CBA0F9001692F4 /* ExtensionRefreshController.swift */; };
+		A7369B7820CBC3A9001692F4 /* TimeBasedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7369B7720CBC3A9001692F4 /* TimeBasedTableViewCell.swift */; };
+		A7369B7A20CBC401001692F4 /* TimeBasedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7369B7920CBC401001692F4 /* TimeBasedViewController.swift */; };
+		A7369B7C20CBC495001692F4 /* ExtensionTimeBasedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7369B7B20CBC495001692F4 /* ExtensionTimeBasedController.swift */; };
+		A7369B7F20CBDEF7001692F4 /* Forecast.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7369B7E20CBDEF7001692F4 /* Forecast.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +41,23 @@
 		A7369B3F20CB1863001692F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7369B4220CB1863001692F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7369B4420CB1863001692F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7369B4A20CB187B001692F4 /* city.list.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = city.list.json; sourceTree = "<group>"; };
+		A7369B5320CB1911001692F4 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		A7369B5520CB310D001692F4 /* daniel-olah-417244-unsplash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "daniel-olah-417244-unsplash.jpg"; sourceTree = "<group>"; };
+		A7369B5920CB362C001692F4 /* ExtensionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionViewController.swift; sourceTree = "<group>"; };
+		A7369B5B20CB36FA001692F4 /* WeatherSearchByCity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherSearchByCity.swift; sourceTree = "<group>"; };
+		A7369B6120CB3CC6001692F4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A7369B6420CB41BC001692F4 /* AlertViewManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewManager.swift; sourceTree = "<group>"; };
+		A7369B6620CB57AD001692F4 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		A7369B6820CB683A001692F4 /* QueriedCityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueriedCityViewController.swift; sourceTree = "<group>"; };
+		A7369B6A20CB6887001692F4 /* ExtensionQueriedCityController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionQueriedCityController.swift; sourceTree = "<group>"; };
+		A7369B6C20CB6B01001692F4 /* QueriedCityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueriedCityTableViewCell.swift; sourceTree = "<group>"; };
+		A7369B7120CB897C001692F4 /* RefreshedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshedViewController.swift; sourceTree = "<group>"; };
+		A7369B7320CBA0F9001692F4 /* ExtensionRefreshController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionRefreshController.swift; sourceTree = "<group>"; };
+		A7369B7720CBC3A9001692F4 /* TimeBasedTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeBasedTableViewCell.swift; sourceTree = "<group>"; };
+		A7369B7920CBC401001692F4 /* TimeBasedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeBasedViewController.swift; sourceTree = "<group>"; };
+		A7369B7B20CBC495001692F4 /* ExtensionTimeBasedController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionTimeBasedController.swift; sourceTree = "<group>"; };
+		A7369B7E20CBDEF7001692F4 /* Forecast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forecast.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +90,96 @@
 		A7369B3420CB1862001692F4 /* WeatherAppChallange */ = {
 			isa = PBXGroup;
 			children = (
+				A7369B5F20CB3CB2001692F4 /* Utils */,
+				A7369B4C20CB1884001692F4 /* Model */,
+				A7369B4F20CB18A6001692F4 /* View */,
+				A7369B5020CB18AE001692F4 /* Controller */,
+				A7369B5220CB18DB001692F4 /* Resources */,
+				A7369B5120CB18C3001692F4 /* StoryBoard */,
 				A7369B3520CB1862001692F4 /* AppDelegate.swift */,
-				A7369B3720CB1862001692F4 /* ViewController.swift */,
-				A7369B3920CB1862001692F4 /* Main.storyboard */,
 				A7369B3F20CB1863001692F4 /* Assets.xcassets */,
 				A7369B4120CB1863001692F4 /* LaunchScreen.storyboard */,
 				A7369B4420CB1863001692F4 /* Info.plist */,
 				A7369B3C20CB1862001692F4 /* WeatherAppChallange.xcdatamodeld */,
 			);
 			path = WeatherAppChallange;
+			sourceTree = "<group>";
+		};
+		A7369B4C20CB1884001692F4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A7369B5320CB1911001692F4 /* City.swift */,
+				A7369B6620CB57AD001692F4 /* Weather.swift */,
+				A7369B7E20CBDEF7001692F4 /* Forecast.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A7369B4F20CB18A6001692F4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A7369B5B20CB36FA001692F4 /* WeatherSearchByCity.swift */,
+				A7369B6C20CB6B01001692F4 /* QueriedCityTableViewCell.swift */,
+				A7369B7720CBC3A9001692F4 /* TimeBasedTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A7369B5020CB18AE001692F4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A7369B3720CB1862001692F4 /* ViewController.swift */,
+				A7369B5920CB362C001692F4 /* ExtensionViewController.swift */,
+				A7369B6820CB683A001692F4 /* QueriedCityViewController.swift */,
+				A7369B6A20CB6887001692F4 /* ExtensionQueriedCityController.swift */,
+				A7369B7120CB897C001692F4 /* RefreshedViewController.swift */,
+				A7369B7320CBA0F9001692F4 /* ExtensionRefreshController.swift */,
+				A7369B7920CBC401001692F4 /* TimeBasedViewController.swift */,
+				A7369B7B20CBC495001692F4 /* ExtensionTimeBasedController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A7369B5120CB18C3001692F4 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				A7369B3920CB1862001692F4 /* Main.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		A7369B5220CB18DB001692F4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A7369B5520CB310D001692F4 /* daniel-olah-417244-unsplash.jpg */,
+				A7369B4A20CB187B001692F4 /* city.list.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A7369B5F20CB3CB2001692F4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A7369B6320CB41AE001692F4 /* AlertManager */,
+				A7369B6020CB3CBA001692F4 /* Constants */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A7369B6020CB3CBA001692F4 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				A7369B6120CB3CC6001692F4 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		A7369B6320CB41AE001692F4 /* AlertManager */ = {
+			isa = PBXGroup;
+			children = (
+				A7369B6420CB41BC001692F4 /* AlertViewManager.swift */,
+			);
+			path = AlertManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +241,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7369B4320CB1863001692F4 /* LaunchScreen.storyboard in Resources */,
+				A7369B4B20CB187B001692F4 /* city.list.json in Resources */,
 				A7369B4020CB1863001692F4 /* Assets.xcassets in Resources */,
+				A7369B5620CB310D001692F4 /* daniel-olah-417244-unsplash.jpg in Resources */,
 				A7369B3B20CB1862001692F4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +255,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7369B6D20CB6B01001692F4 /* QueriedCityTableViewCell.swift in Sources */,
 				A7369B3E20CB1862001692F4 /* WeatherAppChallange.xcdatamodeld in Sources */,
+				A7369B5A20CB362C001692F4 /* ExtensionViewController.swift in Sources */,
 				A7369B3820CB1862001692F4 /* ViewController.swift in Sources */,
+				A7369B7F20CBDEF7001692F4 /* Forecast.swift in Sources */,
+				A7369B7420CBA0F9001692F4 /* ExtensionRefreshController.swift in Sources */,
+				A7369B7A20CBC401001692F4 /* TimeBasedViewController.swift in Sources */,
+				A7369B6920CB683A001692F4 /* QueriedCityViewController.swift in Sources */,
+				A7369B7220CB897C001692F4 /* RefreshedViewController.swift in Sources */,
+				A7369B6B20CB6887001692F4 /* ExtensionQueriedCityController.swift in Sources */,
+				A7369B7820CBC3A9001692F4 /* TimeBasedTableViewCell.swift in Sources */,
+				A7369B5C20CB36FA001692F4 /* WeatherSearchByCity.swift in Sources */,
+				A7369B6720CB57AD001692F4 /* Weather.swift in Sources */,
+				A7369B6220CB3CC6001692F4 /* Constants.swift in Sources */,
+				A7369B5420CB1911001692F4 /* City.swift in Sources */,
+				A7369B7C20CBC495001692F4 /* ExtensionTimeBasedController.swift in Sources */,
 				A7369B3620CB1862001692F4 /* AppDelegate.swift in Sources */,
+				A7369B6520CB41BC001692F4 /* AlertViewManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

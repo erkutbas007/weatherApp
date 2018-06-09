@@ -10,10 +10,22 @@ import UIKit
 
 class RefreshedViewController: UIViewController {
 
+    @IBOutlet var temp: UILabel!
+    @IBOutlet var minTemp: UILabel!
+    @IBOutlet var maxTemp: UILabel!
+    @IBOutlet var pressure: UILabel!
+    @IBOutlet var humadity: UILabel!
+    @IBOutlet var explanation: UILabel!
+    
+    let group = DispatchGroup()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        
+        initiateRefreshProcess()
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,15 +33,7 @@ class RefreshedViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+    
 }
+
+
